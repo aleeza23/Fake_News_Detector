@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 10px;
+    
+  }
+
+  .scroll-box{
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    
+  }
+  .scroll-inner,
+  .scroll-box:hover {
+    visibility: visible;
+  }
+  .text-container {
+    width: 170px; /* Adjust as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
